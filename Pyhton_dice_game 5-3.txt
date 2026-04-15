@@ -1,0 +1,14 @@
+import random
+
+player_dice = random.randint(1, 6)
+computer_dice = random.randint(1, 6)
+
+print("Player rolled:", player_dice)
+print("Computer rolled:", computer_dice)
+
+if player_dice > computer_dice:
+    print("Result: Player Wins!")
+elif computer_dice > player_dice:
+    print("Result: Computer Wins!")
+else:
+    print("Result: It's a Draw!")
